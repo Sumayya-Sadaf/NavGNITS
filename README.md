@@ -1,32 +1,49 @@
-# NavGNITS
+# 🧭 NavGNITS - GNITS Campus Navigation App
 
-A Mobile Application for Navigation within the Campus of GNITS.
+**NavGNITS** is a Flutter-based navigation app for the GNITS (G. Narayanamma Institute of Technology & Science) campus. It helps students, faculty, and visitors easily navigate through both outdoor areas and indoor buildings .
 
-## Getting Started
+---
 
-Navigating a university campus can be a difficult task, especially for new students, faculty, and visitors. Without a reliable navigation system, individuals may face difficulties in locating buildings, classrooms, Labs and faculty cabins, leading to wasted time, frustration, and missed opportunities. NavGNITS is a mobile-based navigation app designed to address these challenges. The app provides users with an interactive map, allowing them to search and locate various departments, classrooms, and facilities within the GNITS campus. Additionally, NavGNITS features indoor positioning and navigation, enabling users to find their way within the buildings. This project aims to improve the overall university experience by providing students, faculty, and visitors with a user-friendly and intuitive navigation solution.
-A few resources to get you started if this is your first Flutter project:
+## 🎓 About the Project
 
-**Problem Statement**
+This app was developed as an **academic project** at GNITS by:
 
-Students and visitors often face difficulties in finding specific blocks or rooms within the GNITS campus. Existing solutions like physical signboards or asking staff may not always be efficient or available. There's a need for a digital, interactive, and user-friendly solution to help users identify the location of blocks and rooms and receive clear directions, both outdoors and indoors.
+- [Sumayya Sadaf](https://github.com/Sumayya-sadaf)  
+- [Vyshnavi Ganji](https://github.com/VyshnaviGanji)
 
-**Scope of the Project**
+---
 
-The project aims to develop a mobile application, NAVGNITS, to help students and visitors navigate the GNITS campus efficiently. It provides two main features: outdoor navigation between campus blocks and indoor identification of specific rooms within buildings. Users can search for any block to view a route from their current location, or search for a room to see the relevant floor map along with a message indicating the block and floor to go to. The application includes preloaded floor maps for all blocks and floors. The scope is limited to providing directional guidance through visual and text-based instructions without real-time tracking or indoor path drawing.
+## 📲 Download APK
 
-**Objectives Of the Project:**
+You can download and install the latest version of the app directly from the link below:
 
-**Main Objective:**
-The main objective of NavGNITS is to create an advanced campus navigation system that allows students, staff, and visitors to efficiently navigate the campus by providing accurate, real-time information. The app aims to guide users to their desired locations within the campus, while also offering feature such as indoor navigation, improving the overall campus experience.
+➡️ **[Download NavGNITS.apk](https://github.com/Sumayya-sadaf/NavGNITS/releases/latest/download/NavGNITS.apk)**
 
-**Specific Objectives:**
-1. Interactive Mapping: To provide users with an easy-to-use, interactive map that 
-allows them to locate various departments, classrooms on campus with no effort.
+✅ No login or account required — just install and start using!
 
+---
 
-2.  Provide Accurate Navigation: To offer reliable, location-based directions within the campus, helping users find their way easily to classrooms, offices, and other essential campus locations. This feature will include a pre-loaded map and dynamic route generation based on the user’s current location
+## 🚀 Features
 
-3. User-Friendly Interface: To design a simple, intuitive, and user-friendly interface that ensures smooth navigation for all users, regardless of their tech-savviness. The app should be easy to understand and operate for  new visitors, students and staff members.
+### 📍 Outdoor Navigation
+- Searchable building list (Admin, IT, ECE, EEE, etc.).
+- Shows walking path from current location to selected building.
+- Conditional markers and labels using OpenStreetMap + Geoapify.
 
+### 🏢 Indoor Navigation
+- Preloaded floor maps of all major blocks (Admin, IT, CSE, ECE, etc.)
+- Select source and destination rooms using search or dropdown.
+- Fully offline — no WiFi, Bluetooth, or internet required.
+- Room search by name (e.g., Computer Lab1, Seminar Hall, Cabin 3, etc.)
+- Displays the relevant floor plan from assets with a guidance message.
 
+Simple, visual navigation without indoor tracking tech
+---
+
+## 📄 License
+
+Licensed under the [MIT License](https://github.com/Sumayya-sadaf/NavGNITS/blob/main/LICENSE).
+
+---
+
+> 💡 Use NavGNITS to easily find your way around GNITS — and share it with your peers!
